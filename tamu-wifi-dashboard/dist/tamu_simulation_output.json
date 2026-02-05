@@ -1,0 +1,2386 @@
+{
+  "metadata": {
+    "campus": "Texas A&M University",
+    "simulation_date": "2026-02-03T00:00:00",
+    "total_clients": 90000,
+    "total_devices": 270000,
+    "total_aps": 22019,
+    "zones": 12,
+    "buildings": 391,
+    "full_load": true,
+    "infrastructure": {
+      "access_points": "Juniper AP47",
+      "edge_appliance": "Mist Edge X6",
+      "switches": "Juniper EX-4400-48MP",
+      "data_centers": 2
+    }
+  },
+  "zone_info": {
+    "1": {
+      "buildings": 48,
+      "aps": 1775,
+      "allocated_clients": 7255
+    },
+    "2": {
+      "buildings": 48,
+      "aps": 4048,
+      "allocated_clients": 16553
+    },
+    "3": {
+      "buildings": 37,
+      "aps": 3272,
+      "allocated_clients": 13373
+    },
+    "4": {
+      "buildings": 45,
+      "aps": 3523,
+      "allocated_clients": 14399
+    },
+    "5": {
+      "buildings": 30,
+      "aps": 2903,
+      "allocated_clients": 11865
+    },
+    "6": {
+      "buildings": 27,
+      "aps": 1347,
+      "allocated_clients": 5505
+    },
+    "7": {
+      "buildings": 61,
+      "aps": 421,
+      "allocated_clients": 1720
+    },
+    "8": {
+      "buildings": 34,
+      "aps": 627,
+      "allocated_clients": 2562
+    },
+    "9": {
+      "buildings": 17,
+      "aps": 1026,
+      "allocated_clients": 4193
+    },
+    "10": {
+      "buildings": 32,
+      "aps": 2322,
+      "allocated_clients": 9490
+    },
+    "11": {
+      "buildings": 5,
+      "aps": 15,
+      "allocated_clients": 61
+    },
+    "12": {
+      "buildings": 7,
+      "aps": 740,
+      "allocated_clients": 3024
+    }
+  },
+  "hourly_stats": [
+    {
+      "hour": 0,
+      "timestamp": "00:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 1,
+      "timestamp": "01:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 2,
+      "timestamp": "02:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 3,
+      "timestamp": "03:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 4,
+      "timestamp": "04:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 5,
+      "timestamp": "05:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 6,
+      "timestamp": "06:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 7,
+      "timestamp": "07:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 8,
+      "timestamp": "08:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 9,
+      "timestamp": "09:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 10,
+      "timestamp": "10:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 11,
+      "timestamp": "11:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 12,
+      "timestamp": "12:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 13,
+      "timestamp": "13:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 14,
+      "timestamp": "14:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 15,
+      "timestamp": "15:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 16,
+      "timestamp": "16:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 17,
+      "timestamp": "17:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 18,
+      "timestamp": "18:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 19,
+      "timestamp": "19:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 20,
+      "timestamp": "20:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 21,
+      "timestamp": "21:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 22,
+      "timestamp": "22:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    },
+    {
+      "hour": 23,
+      "timestamp": "23:00",
+      "zones": {
+        "1": {
+          "active_clients": 7236,
+          "total_devices": 21708,
+          "avg_wap_load": 12.124324999946015,
+          "max_wap_load": 12.259842519685039,
+          "buildings_active": 48
+        },
+        "2": {
+          "active_clients": 16529,
+          "total_devices": 49587,
+          "avg_wap_load": 12.230257177814766,
+          "max_wap_load": 12.267123287671232,
+          "buildings_active": 48
+        },
+        "3": {
+          "active_clients": 13354,
+          "total_devices": 40062,
+          "avg_wap_load": 12.158263912648371,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 37
+        },
+        "4": {
+          "active_clients": 14384,
+          "total_devices": 43152,
+          "avg_wap_load": 12.203347502369787,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 45
+        },
+        "5": {
+          "active_clients": 11853,
+          "total_devices": 35559,
+          "avg_wap_load": 12.193197603273054,
+          "max_wap_load": 12.26086956521739,
+          "buildings_active": 30
+        },
+        "6": {
+          "active_clients": 5492,
+          "total_devices": 16476,
+          "avg_wap_load": 12.145663065662397,
+          "max_wap_load": 12.254237288135593,
+          "buildings_active": 27
+        },
+        "7": {
+          "active_clients": 1702,
+          "total_devices": 5106,
+          "avg_wap_load": 12.028476869715718,
+          "max_wap_load": 12.25,
+          "buildings_active": 61
+        },
+        "8": {
+          "active_clients": 2548,
+          "total_devices": 7644,
+          "avg_wap_load": 12.046754200450271,
+          "max_wap_load": 12.257961783439491,
+          "buildings_active": 34
+        },
+        "9": {
+          "active_clients": 4185,
+          "total_devices": 12555,
+          "avg_wap_load": 12.164925481357571,
+          "max_wap_load": 12.259615384615385,
+          "buildings_active": 17
+        },
+        "10": {
+          "active_clients": 9474,
+          "total_devices": 28422,
+          "avg_wap_load": 12.219329433336656,
+          "max_wap_load": 12.25925925925926,
+          "buildings_active": 32
+        },
+        "11": {
+          "active_clients": 60,
+          "total_devices": 180,
+          "avg_wap_load": 12.0,
+          "max_wap_load": 12.0,
+          "buildings_active": 5
+        },
+        "12": {
+          "active_clients": 3022,
+          "total_devices": 9066,
+          "avg_wap_load": 12.216722232504582,
+          "max_wap_load": 12.2578125,
+          "buildings_active": 7
+        }
+      },
+      "campus_total": {
+        "active_clients": 89839,
+        "total_devices": 269517,
+        "avg_zone_load": 12.1442718732566,
+        "max_zone_load": 12.267123287671232
+      }
+    }
+  ]
+}
