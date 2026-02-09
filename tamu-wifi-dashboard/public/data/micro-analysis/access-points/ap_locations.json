@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Access point physical locations and configuration",
+    "coordinate_system": "feet from building origin (bottom-left corner)"
+  },
+
+  "ZACH": {
+    "building_id": "ZACH",
+    "total_aps": 48,
+    "access_points": [
+      {
+        "ap_id": "AP-ZACH-1F-001",
+        "name": "Zachry Floor 1 - Room 101",
+        "mac_address": "00:1A:2B:3C:4D:01",
+        "model": "Juniper AP47",
+        "floor": 1,
+        "location": {
+          "room": "101",
+          "room_type": "lecture_hall",
+          "description": "Large Lecture Hall - Front Left",
+          "x": 45.2,
+          "y": 78.5,
+          "height_ft": 12
+        },
+        "radio_config": {
+          "2.4GHz": {
+            "enabled": true,
+            "channel": 6,
+            "power_dbm": 14,
+            "channel_width": 20
+          },
+          "5GHz": {
+            "enabled": true,
+            "channel": 36,
+            "power_dbm": 17,
+            "channel_width": 80
+          }
+        },
+        "installed_date": "2024-08-15",
+        "firmware_version": "0.14.123",
+        "notes": ""
+      },
+      {
+        "ap_id": "AP-ZACH-1F-002",
+        "name": "Zachry Floor 1 - Room 101",
+        "mac_address": "00:1A:2B:3C:4D:02",
+        "model": "Juniper AP47",
+        "floor": 1,
+        "location": {
+          "room": "101",
+          "room_type": "lecture_hall",
+          "description": "Large Lecture Hall - Front Right",
+          "x": 120.5,
+          "y": 78.5,
+          "height_ft": 12
+        },
+        "radio_config": {
+          "2.4GHz": {
+            "enabled": true,
+            "channel": 11,
+            "power_dbm": 14,
+            "channel_width": 20
+          },
+          "5GHz": {
+            "enabled": true,
+            "channel": 48,
+            "power_dbm": 17,
+            "channel_width": 80
+          }
+        },
+        "installed_date": "2024-08-15",
+        "firmware_version": "0.14.123",
+        "notes": ""
+      },
+      {
+        "ap_id": "AP-ZACH-1F-003",
+        "name": "Zachry Floor 1 - Hallway A",
+        "mac_address": "00:1A:2B:3C:4D:03",
+        "model": "Juniper AP47",
+        "floor": 1,
+        "location": {
+          "room": "Hallway-A",
+          "room_type": "hallway",
+          "description": "Main East-West Corridor",
+          "x": 85.0,
+          "y": 45.0,
+          "height_ft": 10
+        },
+        "radio_config": {
+          "2.4GHz": {
+            "enabled": true,
+            "channel": 1,
+            "power_dbm": 11,
+            "channel_width": 20
+          },
+          "5GHz": {
+            "enabled": true,
+            "channel": 149,
+            "power_dbm": 14,
+            "channel_width": 80
+          }
+        },
+        "installed_date": "2024-08-15",
+        "firmware_version": "0.14.123",
+        "notes": "Lower power for hallway coverage"
+      }
+    ]
+  }
+}

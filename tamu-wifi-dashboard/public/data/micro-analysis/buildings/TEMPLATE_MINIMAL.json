@@ -1,0 +1,25 @@
+{
+  "_comment": "MINIMAL TEMPLATE - Start here for a new building",
+  "_instructions": "Fill in the fields below. Delete fields you don't have data for yet.",
+
+  "building_info": {
+    "id": "BLDG_CODE",
+    "name": "Full Building Name",
+    "zone_id": 2,
+    "coordinates": {
+      "lat": 30.0000,
+      "lng": -96.0000
+    },
+    "building_type": "academic",
+    "floors": 4,
+    "square_feet": 0,
+    "typical_occupancy": 0
+  },
+
+  "floor_info": [
+    {
+      "floor_number": 1,
+      "ap_count": 0
+    }
+  ]
+}

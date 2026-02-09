@@ -1,0 +1,89 @@
+{
+  "building_info": {
+    "id": "ZACH",
+    "name": "Zachry Engineering Center",
+    "zone_id": 2,
+    "coordinates": {
+      "lat": 30.6187,
+      "lng": -96.3400
+    },
+    "building_type": "academic",
+    "floors": 4,
+    "square_feet": 520000,
+    "typical_occupancy": 2500,
+    "construction_year": 1973
+  },
+
+  "floor_info": [
+    {
+      "floor_number": 1,
+      "dimensions": {
+        "width_ft": 250,
+        "height_ft": 180,
+        "scale": 1.0
+      },
+      "ap_count": 14,
+      "floor_plan_file": "ZACH_floor_1.svg"
+    },
+    {
+      "floor_number": 2,
+      "dimensions": {
+        "width_ft": 250,
+        "height_ft": 180,
+        "scale": 1.0
+      },
+      "ap_count": 12,
+      "floor_plan_file": "ZACH_floor_2.svg"
+    },
+    {
+      "floor_number": 3,
+      "dimensions": {
+        "width_ft": 250,
+        "height_ft": 180,
+        "scale": 1.0
+      },
+      "ap_count": 11,
+      "floor_plan_file": null
+    },
+    {
+      "floor_number": 4,
+      "dimensions": {
+        "width_ft": 250,
+        "height_ft": 180,
+        "scale": 1.0
+      },
+      "ap_count": 11,
+      "floor_plan_file": null
+    }
+  ],
+
+  "room_inventory": {
+    "lecture_halls": {
+      "count": 8,
+      "locations": [
+        {"room": "101", "floor": 1, "capacity": 250, "type": "large_lecture"},
+        {"room": "102", "floor": 1, "capacity": 150, "type": "medium_lecture"},
+        {"room": "105", "floor": 1, "capacity": 80, "type": "small_lecture"}
+      ]
+    },
+    "labs": {
+      "count": 24,
+      "locations": [
+        {"room": "201", "floor": 2, "capacity": 30, "type": "computer_lab"},
+        {"room": "203", "floor": 2, "capacity": 25, "type": "research_lab"}
+      ]
+    },
+    "offices": {
+      "count": 120,
+      "typical_capacity": 1
+    },
+    "hallways": {
+      "count": 16,
+      "typical_capacity": 50
+    },
+    "stairwells": {
+      "count": 6,
+      "typical_capacity": 10
+    }
+  }
+}

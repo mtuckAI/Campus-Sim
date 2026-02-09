@@ -1,0 +1,152 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Room/location type definitions with characteristics and expected behavior"
+  },
+
+  "location_types": {
+    "lecture_hall": {
+      "display_name": "Lecture Hall",
+      "description": "Large gathering spaces for classes and presentations",
+      "typical_capacity": 150,
+      "typical_ap_density": "1 per 50 users",
+      "density_category": "high",
+      "challenges": [
+        "high_density",
+        "synchronized_activity",
+        "streaming_video",
+        "note_taking_apps"
+      ],
+      "roaming_pattern": "minimal",
+      "expected_session_duration_min": 50,
+      "peak_hours": [8, 9, 10, 11, 13, 14, 15, 16],
+      "color": "#FF6B6B"
+    },
+
+    "hallway": {
+      "display_name": "Hallway",
+      "description": "Transit corridors and circulation spaces",
+      "typical_capacity": 50,
+      "typical_ap_density": "every 30 meters",
+      "density_category": "medium",
+      "challenges": [
+        "rapid_handoffs",
+        "transient_clients",
+        "variable_density",
+        "overlapping_coverage"
+      ],
+      "roaming_pattern": "frequent",
+      "expected_session_duration_min": 5,
+      "peak_hours": [8, 9, 10, 11, 12, 13, 14, 15, 16],
+      "color": "#4ECDC4"
+    },
+
+    "computer_lab": {
+      "display_name": "Computer Lab",
+      "description": "Dedicated computer workstation spaces",
+      "typical_capacity": 30,
+      "typical_ap_density": "1 per lab",
+      "density_category": "high",
+      "challenges": [
+        "high_bandwidth",
+        "RF_interference",
+        "stationary_clients",
+        "file_transfers"
+      ],
+      "roaming_pattern": "minimal",
+      "expected_session_duration_min": 120,
+      "peak_hours": [10, 11, 13, 14, 15, 16, 17, 18],
+      "color": "#95E1D3"
+    },
+
+    "research_lab": {
+      "display_name": "Research Lab",
+      "description": "Scientific and engineering laboratory spaces",
+      "typical_capacity": 20,
+      "typical_ap_density": "1 per lab",
+      "density_category": "medium",
+      "challenges": [
+        "RF_interference",
+        "specialized_equipment",
+        "long_sessions",
+        "data_collection"
+      ],
+      "roaming_pattern": "moderate",
+      "expected_session_duration_min": 180,
+      "peak_hours": [9, 10, 11, 13, 14, 15, 16, 17, 18, 19],
+      "color": "#38A169"
+    },
+
+    "office": {
+      "display_name": "Office",
+      "description": "Individual or shared faculty/staff offices",
+      "typical_capacity": 2,
+      "typical_ap_density": "1 per 10 offices",
+      "density_category": "low",
+      "challenges": [
+        "weak_signal_corners",
+        "long_sessions",
+        "VoIP_requirements",
+        "video_conferencing"
+      ],
+      "roaming_pattern": "minimal",
+      "expected_session_duration_min": 240,
+      "peak_hours": [9, 10, 11, 13, 14, 15, 16],
+      "color": "#F6AD55"
+    },
+
+    "stairwell": {
+      "display_name": "Stairwell",
+      "description": "Vertical circulation between floors",
+      "typical_capacity": 10,
+      "typical_ap_density": "1 per 2-3 floors",
+      "density_category": "low",
+      "challenges": [
+        "vertical_handoffs",
+        "weak_coverage",
+        "rapid_movement",
+        "multi_floor_interference"
+      ],
+      "roaming_pattern": "rapid",
+      "expected_session_duration_min": 2,
+      "peak_hours": [8, 9, 11, 12, 13, 14, 15, 16, 17],
+      "color": "#FC8181"
+    },
+
+    "study_area": {
+      "display_name": "Study Area",
+      "description": "Informal learning and collaboration spaces",
+      "typical_capacity": 20,
+      "typical_ap_density": "1 per area",
+      "density_category": "medium",
+      "challenges": [
+        "variable_density",
+        "mixed_activities",
+        "moderate_bandwidth",
+        "group_work"
+      ],
+      "roaming_pattern": "minimal",
+      "expected_session_duration_min": 90,
+      "peak_hours": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+      "color": "#9F7AEA"
+    },
+
+    "cafeteria": {
+      "display_name": "Cafeteria/Dining",
+      "description": "Food service and dining areas",
+      "typical_capacity": 100,
+      "typical_ap_density": "1 per 40 users",
+      "density_category": "high",
+      "challenges": [
+        "high_density",
+        "short_sessions",
+        "social_media_usage",
+        "peak_usage_times"
+      ],
+      "roaming_pattern": "moderate",
+      "expected_session_duration_min": 30,
+      "peak_hours": [7, 8, 12, 13, 17, 18],
+      "color": "#F687B3"
+    }
+  }
+}

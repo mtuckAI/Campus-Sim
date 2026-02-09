@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "hour": 10,
+    "timestamp": "10:00",
+    "date": "2026-02-03",
+    "description": "Per-AP metrics for hour 10 (10:00 AM)"
+  },
+
+  "metrics": {
+    "AP-ZACH-1F-001": {
+      "basic": {
+        "total_clients": 45,
+        "clients_2.4GHz": 8,
+        "clients_5GHz": 37,
+        "avg_rssi": -65,
+        "min_rssi": -78,
+        "max_rssi": -52
+      },
+      "performance": {
+        "channel_utilization_pct": 68,
+        "throughput_mbps": 780,
+        "retries": 1245,
+        "errors": 89,
+        "avg_tx_rate_mbps": 520,
+        "avg_rx_rate_mbps": 495
+      },
+      "handoffs": {
+        "received_from": {
+          "AP-ZACH-1F-002": 12,
+          "AP-ZACH-2F-001": 5,
+          "AP-HALL-ENTRY": 3
+        },
+        "handed_to": {
+          "AP-ZACH-1F-002": 8,
+          "AP-ZACH-1F-003": 4
+        },
+        "total_received": 20,
+        "total_handed": 12
+      },
+      "roaming": {
+        "successful_roams": 18,
+        "failed_roams": 5,
+        "sticky_clients": 7,
+        "avg_roam_time_ms": 62,
+        "roaming_health_score": 78.3
+      }
+    },
+
+    "AP-ZACH-1F-002": {
+      "basic": {
+        "total_clients": 38,
+        "clients_2.4GHz": 5,
+        "clients_5GHz": 33,
+        "avg_rssi": -63,
+        "min_rssi": -76,
+        "max_rssi": -50
+      },
+      "performance": {
+        "channel_utilization_pct": 58,
+        "throughput_mbps": 650,
+        "retries": 980,
+        "errors": 67,
+        "avg_tx_rate_mbps": 480,
+        "avg_rx_rate_mbps": 465
+      },
+      "handoffs": {
+        "received_from": {
+          "AP-ZACH-1F-001": 8,
+          "AP-ZACH-1F-003": 6
+        },
+        "handed_to": {
+          "AP-ZACH-1F-001": 12,
+          "AP-ZACH-1F-003": 5
+        },
+        "total_received": 14,
+        "total_handed": 17
+      },
+      "roaming": {
+        "successful_roams": 15,
+        "failed_roams": 2,
+        "sticky_clients": 4,
+        "avg_roam_time_ms": 48,
+        "roaming_health_score": 88.2
+      }
+    },
+
+    "AP-ZACH-1F-003": {
+      "basic": {
+        "total_clients": 22,
+        "clients_2.4GHz": 3,
+        "clients_5GHz": 19,
+        "avg_rssi": -58,
+        "min_rssi": -71,
+        "max_rssi": -45
+      },
+      "performance": {
+        "channel_utilization_pct": 32,
+        "throughput_mbps": 380,
+        "retries": 445,
+        "errors": 28,
+        "avg_tx_rate_mbps": 580,
+        "avg_rx_rate_mbps": 555
+      },
+      "handoffs": {
+        "received_from": {
+          "AP-ZACH-1F-002": 5,
+          "AP-ZACH-1F-004": 8
+        },
+        "handed_to": {
+          "AP-ZACH-1F-002": 6,
+          "AP-ZACH-1F-004": 7
+        },
+        "total_received": 13,
+        "total_handed": 13
+      },
+      "roaming": {
+        "successful_roams": 22,
+        "failed_roams": 1,
+        "sticky_clients": 2,
+        "avg_roam_time_ms": 38,
+        "roaming_health_score": 95.7
+      }
+    }
+  }
+}

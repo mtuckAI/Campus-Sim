@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2026-02-09",
+    "description": "Master index of buildings with micro-analysis data"
+  },
+  "buildings": [
+    {
+      "id": "ZACH",
+      "name": "Zachry Engineering Center",
+      "zone_id": 2,
+      "zone_name": "Central Campus",
+      "enabled": true,
+      "data_file": "ZACH.json"
+    },
+    {
+      "id": "HRBB",
+      "name": "Harrington Tower",
+      "zone_id": 2,
+      "zone_name": "Central Campus",
+      "enabled": false,
+      "data_file": "HRBB.json",
+      "notes": "Data collection in progress"
+    },
+    {
+      "id": "KYLE",
+      "name": "Kyle Field",
+      "zone_id": 10,
+      "zone_name": "Athletics District",
+      "enabled": false,
+      "data_file": "KYLE.json"
+    }
+  ]
+}

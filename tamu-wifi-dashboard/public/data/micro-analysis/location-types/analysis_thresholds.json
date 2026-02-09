@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Configurable thresholds for analysis and alerts - EDIT THESE VALUES AS NEEDED",
+    "units": {
+      "rssi": "dBm (negative values, closer to 0 is better)",
+      "channel_utilization": "percentage (0-100)",
+      "roam_time": "milliseconds"
+    }
+  },
+
+  "signal_strength": {
+    "excellent_rssi": -50,
+    "good_rssi": -60,
+    "fair_rssi": -67,
+    "weak_rssi": -70,
+    "poor_rssi": -75,
+    "critical_rssi": -80,
+    "description": "RSSI thresholds for signal quality classification"
+  },
+
+  "sticky_client_detection": {
+    "sticky_client_rssi": -70,
+    "sticky_duration_minutes": 5,
+    "better_ap_rssi_improvement": 10,
+    "description": "Client is sticky if RSSI < threshold and a better AP exists with X dBm improvement"
+  },
+
+  "channel_utilization": {
+    "low_utilization_pct": 30,
+    "moderate_utilization_pct": 50,
+    "high_utilization_pct": 70,
+    "critical_utilization_pct": 85,
+    "overload_utilization_pct": 95,
+    "description": "Channel utilization percentage thresholds"
+  },
+
+  "ap_capacity": {
+    "max_recommended_clients": 50,
+    "warning_clients": 40,
+    "critical_clients": 60,
+    "description": "Recommended client counts per AP"
+  },
+
+  "roaming_health": {
+    "roaming_failure_threshold_pct": 10,
+    "acceptable_roam_time_ms": 50,
+    "good_roam_time_ms": 30,
+    "warning_roam_time_ms": 75,
+    "critical_roam_time_ms": 100,
+    "min_roaming_health_score": 80,
+    "description": "Roaming performance thresholds"
+  },
+
+  "handoff_analysis": {
+    "excessive_handoffs_per_hour": 20,
+    "handoff_loop_threshold": 3,
+    "description": "Alert if client bounces between same APs more than threshold times"
+  },
+
+  "coverage_analysis": {
+    "min_acceptable_snr": 20,
+    "good_snr": 30,
+    "excellent_snr": 40,
+    "description": "Signal-to-Noise Ratio thresholds in dB"
+  },
+
+  "performance_thresholds": {
+    "high_retry_rate_pct": 10,
+    "critical_retry_rate_pct": 20,
+    "high_error_rate_pct": 1,
+    "critical_error_rate_pct": 5,
+    "min_throughput_mbps": 100,
+    "description": "Performance metric thresholds"
+  },
+
+  "alert_priorities": {
+    "critical": {
+      "conditions": [
+        "rssi < critical_rssi",
+        "channel_utilization > critical_utilization_pct",
+        "clients > critical_clients",
+        "error_rate > critical_error_rate_pct"
+      ],
+      "color": "#E53E3E",
+      "action_required": true
+    },
+    "warning": {
+      "conditions": [
+        "rssi < poor_rssi",
+        "channel_utilization > high_utilization_pct",
+        "roam_time > warning_roam_time_ms",
+        "sticky_clients detected"
+      ],
+      "color": "#ED8936",
+      "action_required": false
+    },
+    "info": {
+      "conditions": [
+        "rssi < fair_rssi",
+        "channel_utilization > moderate_utilization_pct"
+      ],
+      "color": "#3182CE",
+      "action_required": false
+    }
+  }
+}

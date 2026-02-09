@@ -1,0 +1,207 @@
+{
+  "_comment": "FULL TEMPLATE - Complete example with all optional fields",
+  "_instructions": "Copy this for detailed building analysis. Remove sections you don't need.",
+
+  "building_info": {
+    "id": "BLDG_CODE",
+    "name": "Full Building Name",
+    "zone_id": 2,
+    "zone_name": "Central Campus",
+    "coordinates": {
+      "lat": 30.6187,
+      "lng": -96.3400
+    },
+    "building_type": "academic",
+    "floors": 4,
+    "square_feet": 520000,
+    "typical_occupancy": 2500,
+    "construction_year": 1973,
+    "last_renovation": 2018,
+    "architect": "Optional",
+    "notes": "Any special notes about the building"
+  },
+
+  "floor_info": [
+    {
+      "floor_number": 1,
+      "floor_label": "First Floor",
+      "dimensions": {
+        "width_ft": 250,
+        "height_ft": 180,
+        "ceiling_height_ft": 12,
+        "scale": 1.0
+      },
+      "ap_count": 14,
+      "floor_plan_file": "BLDG_floor_1.svg",
+      "notes": "Main entrance on this floor"
+    },
+    {
+      "floor_number": 2,
+      "floor_label": "Second Floor",
+      "dimensions": {
+        "width_ft": 250,
+        "height_ft": 180,
+        "ceiling_height_ft": 10,
+        "scale": 1.0
+      },
+      "ap_count": 12,
+      "floor_plan_file": "BLDG_floor_2.svg",
+      "notes": ""
+    }
+  ],
+
+  "room_inventory": {
+    "lecture_halls": {
+      "count": 8,
+      "total_capacity": 1200,
+      "locations": [
+        {
+          "room": "101",
+          "floor": 1,
+          "capacity": 250,
+          "type": "large_lecture",
+          "dimensions": {"width": 50, "height": 40},
+          "coordinates": {"x": 45, "y": 78},
+          "schedule": {
+            "monday": ["08:00-09:15", "10:00-11:15", "13:00-14:15"],
+            "tuesday": ["08:00-09:15", "10:00-11:15"],
+            "wednesday": ["08:00-09:15", "10:00-11:15", "13:00-14:15"],
+            "thursday": ["08:00-09:15", "10:00-11:15"],
+            "friday": ["08:00-09:15"]
+          },
+          "notes": "Main auditorium, AV equipment"
+        },
+        {
+          "room": "102",
+          "floor": 1,
+          "capacity": 150,
+          "type": "medium_lecture"
+        }
+      ]
+    },
+
+    "computer_labs": {
+      "count": 12,
+      "total_capacity": 360,
+      "locations": [
+        {
+          "room": "201",
+          "floor": 2,
+          "capacity": 30,
+          "type": "computer_lab",
+          "workstations": 30,
+          "notes": "Engineering software lab"
+        }
+      ]
+    },
+
+    "research_labs": {
+      "count": 12,
+      "total_capacity": 300,
+      "locations": [
+        {
+          "room": "203",
+          "floor": 2,
+          "capacity": 25,
+          "type": "research_lab",
+          "specialization": "Electronics",
+          "rf_interference": "high",
+          "notes": "Shielded room, special AP placement needed"
+        }
+      ]
+    },
+
+    "offices": {
+      "count": 120,
+      "typical_capacity": 1,
+      "individual": 80,
+      "shared": 40,
+      "locations": []
+    },
+
+    "hallways": {
+      "count": 16,
+      "typical_capacity": 50,
+      "locations": [
+        {
+          "id": "Hallway-A",
+          "floor": 1,
+          "description": "Main East-West Corridor",
+          "length_ft": 200,
+          "width_ft": 10
+        }
+      ]
+    },
+
+    "stairwells": {
+      "count": 6,
+      "typical_capacity": 10,
+      "locations": [
+        {
+          "id": "Stairwell-A",
+          "floors": [1, 2, 3, 4],
+          "location": "Northwest corner"
+        }
+      ]
+    },
+
+    "conference_rooms": {
+      "count": 8,
+      "total_capacity": 160,
+      "locations": []
+    },
+
+    "study_areas": {
+      "count": 4,
+      "total_capacity": 80,
+      "locations": []
+    },
+
+    "other": {
+      "elevators": 3,
+      "restrooms": 12,
+      "storage": 8,
+      "utility_rooms": 4
+    }
+  },
+
+  "rf_characteristics": {
+    "construction_materials": ["concrete", "steel", "glass"],
+    "known_interference_sources": [
+      "Microwave ovens in break rooms",
+      "Industrial equipment in labs"
+    ],
+    "dead_zones": [
+      {"location": "Basement storage", "reason": "concrete walls"},
+      {"location": "Room 305", "reason": "shielded lab"}
+    ],
+    "signal_challenges": "Multiple concrete walls between floors",
+    "notes": "Older building, thick walls affect penetration"
+  },
+
+  "usage_patterns": {
+    "peak_hours": [10, 11, 13, 14, 15],
+    "low_hours": [0, 1, 2, 3, 4, 5, 6, 22, 23],
+    "weekend_usage": "minimal",
+    "summer_usage": "reduced",
+    "event_spaces": ["Room 101 - large lectures"],
+    "notes": "High density during class changes at 50 minutes past each hour"
+  },
+
+  "network_info": {
+    "vlan_assignment": "VLAN 100",
+    "management_zone": "central-campus",
+    "edge_devices": ["Edge-ZACH-01", "Edge-ZACH-02"],
+    "switch_count": 12,
+    "switch_models": ["Juniper EX-4400-48MP"],
+    "uplink_capacity_gbps": 10,
+    "notes": ""
+  },
+
+  "contacts": {
+    "building_manager": "Name - facilities@tamu.edu",
+    "it_contact": "Name - netops@tamu.edu",
+    "data_collected_by": "Your Name",
+    "last_updated": "2026-02-09"
+  }
+}
