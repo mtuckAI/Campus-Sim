@@ -1,0 +1,64 @@
+{
+  "building_info": {
+    "id": "TAMU_ 0468 2 CUSHING LIBRARY",
+    "name": "TAMU_ 0468 2 CUSHING LIBRARY",
+    "zone_id": 2,
+    "zone_name": "Central Campus",
+    "coordinates": {
+      "lat": 30.61663,
+      "lng": -96.33909
+    },
+    "building_type": "academic",
+    "floors": 3,
+    "square_feet": 63934
+  },
+  "floor_info": [
+    {
+      "floor_number": 1,
+      "floor_label": "0468.2-01 (Post)",
+      "dimensions": {
+        "width_ft": 97.8,
+        "height_ft": 187.0,
+        "scale": 1.0
+      },
+      "ap_count": 9,
+      "floor_plan_file": "e0b8bf0f-d03c-4f94-9b31-24f3d1beeae0.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 2,
+      "floor_label": "0468.2-02 (Post)",
+      "dimensions": {
+        "width_ft": 109.2,
+        "height_ft": 209.0,
+        "scale": 1.0
+      },
+      "ap_count": 11,
+      "floor_plan_file": "2dd3a22a-456a-4166-bca2-7fac4f06c0b8.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 3,
+      "floor_label": "0468.2-03 (Post)",
+      "dimensions": {
+        "width_ft": 109.2,
+        "height_ft": 209.0,
+        "scale": 1.0
+      },
+      "ap_count": 9,
+      "floor_plan_file": "73197857-83f1-4808-9beb-1f88e9c4489f.svg",
+      "notes": ""
+    }
+  ],
+  "room_inventory": {},
+  "rf_characteristics": {},
+  "usage_patterns": {},
+  "network_info": {
+    "total_aps": 29,
+    "notes": "Data imported from Ekahau unknown"
+  },
+  "contacts": {
+    "data_collected_by": "Ekahau Parser",
+    "source_file": "TAMU- 0468 2 Cushing Library.esx"
+  }
+}

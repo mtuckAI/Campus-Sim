@@ -1,0 +1,100 @@
+{
+  "building_info": {
+    "id": "TAMU_ 0468 3 LIBRARY ANNEX AND BRIDGE V2",
+    "name": "TAMU_ 0468 3 LIBRARY ANNEX AND BRIDGE V2",
+    "zone_id": 2,
+    "zone_name": "Central Campus",
+    "coordinates": {
+      "lat": 30.61663,
+      "lng": -96.33909
+    },
+    "building_type": "academic",
+    "floors": 6,
+    "square_feet": 1033876
+  },
+  "floor_info": [
+    {
+      "floor_number": 1,
+      "floor_label": "0468.3-01 (Post)",
+      "dimensions": {
+        "width_ft": 581.24,
+        "height_ft": 376.09,
+        "scale": 1.0
+      },
+      "ap_count": 17,
+      "floor_plan_file": "08365b9f-bd0c-49c0-b438-bf280d35392f.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 2,
+      "floor_label": "0468.3-02 (Post)",
+      "dimensions": {
+        "width_ft": 534.4,
+        "height_ft": 345.79,
+        "scale": 1.0
+      },
+      "ap_count": 17,
+      "floor_plan_file": "74c454b0-4e53-445a-9b53-4561d87c2a60.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 3,
+      "floor_label": "0468.3-03 (Post)",
+      "dimensions": {
+        "width_ft": 409.38,
+        "height_ft": 264.89,
+        "scale": 1.0
+      },
+      "ap_count": 21,
+      "floor_plan_file": "9a008e7a-8607-4b4d-b4c5-f7148355b568.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 4,
+      "floor_label": "0468.3-04 (Post)",
+      "dimensions": {
+        "width_ft": 441.56,
+        "height_ft": 285.71,
+        "scale": 1.0
+      },
+      "ap_count": 26,
+      "floor_plan_file": "99bb9f54-7ffc-4031-b33a-bfba401321b1.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 5,
+      "floor_label": "0468.3-05 (Post)",
+      "dimensions": {
+        "width_ft": 624.32,
+        "height_ft": 468.24,
+        "scale": 1.0
+      },
+      "ap_count": 20,
+      "floor_plan_file": "f3203f40-ff95-4264-9cb8-448d2ef86379.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 6,
+      "floor_label": "0468.3-06 (Post)",
+      "dimensions": {
+        "width_ft": 400.05,
+        "height_ft": 258.86,
+        "scale": 1.0
+      },
+      "ap_count": 23,
+      "floor_plan_file": "1b079a9e-f7f3-4ad0-b83d-e883eee102a1.svg",
+      "notes": ""
+    }
+  ],
+  "room_inventory": {},
+  "rf_characteristics": {},
+  "usage_patterns": {},
+  "network_info": {
+    "total_aps": 124,
+    "notes": "Data imported from Ekahau unknown"
+  },
+  "contacts": {
+    "data_collected_by": "Ekahau Parser",
+    "source_file": "TAMU- 0468 3 Library Annex And Bridge V2.esx"
+  }
+}

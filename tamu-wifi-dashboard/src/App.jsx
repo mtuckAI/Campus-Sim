@@ -5,6 +5,7 @@ import CampusTimeline from './components/CampusTimeline'
 import ZoneBreakdown from './components/ZoneBreakdown'
 import HeatmapView from './components/HeatmapView'
 import Footer from './components/Footer'
+import MicroAnalysisTab from './components/micro-analysis/MicroAnalysisTab'
 
 const ZONE_NAMES = {
   1: 'West Campus',
@@ -123,6 +124,7 @@ export default function App() {
     { id: 'overview', label: 'Overview' },
     { id: 'zones', label: 'Campus Zones' },
     { id: 'heatmap', label: 'Activity Heatmap' },
+    { id: 'micro', label: 'Building Analysis' },
   ]
 
   return (
@@ -237,6 +239,10 @@ export default function App() {
 
         {activeTab === 'heatmap' && (
           <HeatmapView hourlyStats={data.hourly_stats} zoneNames={ZONE_NAMES} />
+        )}
+
+        {activeTab === 'micro' && (
+          <MicroAnalysisTab />
         )}
       </main>
 

@@ -1,0 +1,64 @@
+{
+  "building_info": {
+    "id": "MCS_0454",
+    "name": "MCS_0454",
+    "zone_id": 4,
+    "zone_name": "South Campus",
+    "coordinates": {
+      "lat": 30.61278,
+      "lng": -96.34203
+    },
+    "building_type": "academic",
+    "floors": 3,
+    "square_feet": 605083
+  },
+  "floor_info": [
+    {
+      "floor_number": -1,
+      "floor_label": "0454 - LL (Post)",
+      "dimensions": {
+        "width_ft": 598.5,
+        "height_ft": 361.0,
+        "scale": 1.0
+      },
+      "ap_count": 71,
+      "floor_plan_file": "c5e9e924-2483-40a2-a581-681ef96fc6dd.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 1,
+      "floor_label": "0454 - 01 (Post)",
+      "dimensions": {
+        "width_ft": 535.5,
+        "height_ft": 323.0,
+        "scale": 1.0
+      },
+      "ap_count": 86,
+      "floor_plan_file": "449a378c-8cdd-494c-9f73-8bc59c8a5e83.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 2,
+      "floor_label": "0454 - 02 (Post)",
+      "dimensions": {
+        "width_ft": 598.5,
+        "height_ft": 361.0,
+        "scale": 1.0
+      },
+      "ap_count": 102,
+      "floor_plan_file": "1d02812e-0856-4339-9215-73b90da71c1f.svg",
+      "notes": ""
+    }
+  ],
+  "room_inventory": {},
+  "rf_characteristics": {},
+  "usage_patterns": {},
+  "network_info": {
+    "total_aps": 259,
+    "notes": "Data imported from Ekahau unknown"
+  },
+  "contacts": {
+    "data_collected_by": "Ekahau Parser",
+    "source_file": "TAMU-0454-MCS.esx"
+  }
+}

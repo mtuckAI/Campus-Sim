@@ -1,34 +1,63 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-02-09",
-    "description": "Master index of buildings with micro-analysis data"
+    "last_updated": "2026-02-20",
+    "source": "Ekahau Parser"
   },
   "buildings": [
     {
-      "id": "ZACH",
-      "name": "Zachry Engineering Center",
+      "id": "TAMU_ 0468 3 LIBRARY ANNEX AND BRIDGE V2",
+      "name": "TAMU_ 0468 3 LIBRARY ANNEX AND BRIDGE V2",
       "zone_id": 2,
       "zone_name": "Central Campus",
       "enabled": true,
-      "data_file": "ZACH.json"
+      "data_file": "TAMU_ 0468 3 LIBRARY ANNEX AND BRIDGE V2.json",
+      "notes": "Imported from Ekahau"
     },
     {
-      "id": "HRBB",
-      "name": "Harrington Tower",
+      "id": "MCS_0454",
+      "name": "MCS_0454",
+      "zone_id": 4,
+      "zone_name": "South Campus",
+      "enabled": true,
+      "data_file": "MCS_0454.json",
+      "notes": "Imported from Ekahau"
+    },
+    {
+      "id": "TAMU_ 0468 1 EVANS LIBRARY",
+      "name": "TAMU_ 0468 1 EVANS LIBRARY",
       "zone_id": 2,
       "zone_name": "Central Campus",
-      "enabled": false,
-      "data_file": "HRBB.json",
-      "notes": "Data collection in progress"
+      "enabled": true,
+      "data_file": "TAMU_ 0468 1 EVANS LIBRARY.json",
+      "notes": "Imported from Ekahau"
     },
     {
-      "id": "KYLE",
-      "name": "Kyle Field",
+      "id": "THE_COMMONS__0440",
+      "name": "THE_COMMONS__0440",
       "zone_id": 10,
-      "zone_name": "Athletics District",
-      "enabled": false,
-      "data_file": "KYLE.json"
+      "zone_name": "Medical District",
+      "enabled": true,
+      "data_file": "THE_COMMONS__0440.json",
+      "notes": "Imported from Ekahau"
+    },
+    {
+      "id": "TAMU_ 0508 VETERINARY TEACHING HOSPITAL",
+      "name": "TAMU_ 0508 VETERINARY TEACHING HOSPITAL",
+      "zone_id": 1,
+      "zone_name": "West Campus",
+      "enabled": true,
+      "data_file": "TAMU_ 0508 VETERINARY TEACHING HOSPITAL.json",
+      "notes": "Imported from Ekahau"
+    },
+    {
+      "id": "TAMU_ 0468 2 CUSHING LIBRARY",
+      "name": "TAMU_ 0468 2 CUSHING LIBRARY",
+      "zone_id": 2,
+      "zone_name": "Central Campus",
+      "enabled": true,
+      "data_file": "TAMU_ 0468 2 CUSHING LIBRARY.json",
+      "notes": "Imported from Ekahau"
     }
   ]
 }

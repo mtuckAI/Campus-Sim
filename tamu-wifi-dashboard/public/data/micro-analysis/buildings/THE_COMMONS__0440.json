@@ -1,0 +1,52 @@
+{
+  "building_info": {
+    "id": "THE_COMMONS__0440",
+    "name": "THE_COMMONS__0440",
+    "zone_id": 10,
+    "zone_name": "Medical District",
+    "coordinates": {
+      "lat": 30.61506,
+      "lng": -96.3358
+    },
+    "building_type": "academic",
+    "floors": 2,
+    "square_feet": 111597
+  },
+  "floor_info": [
+    {
+      "floor_number": -1,
+      "floor_label": "0440-LL (Post)",
+      "dimensions": {
+        "width_ft": 318.2,
+        "height_ft": 194.8,
+        "scale": 1.0
+      },
+      "ap_count": 21,
+      "floor_plan_file": "9463a70e-f786-4318-84b7-4eef3d6da5c1.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 1,
+      "floor_label": "0440-UL (Post)",
+      "dimensions": {
+        "width_ft": 284.8,
+        "height_ft": 174.2,
+        "scale": 1.0
+      },
+      "ap_count": 46,
+      "floor_plan_file": "5772448e-44ca-4ddf-9cdc-5b079e62ec6f.svg",
+      "notes": ""
+    }
+  ],
+  "room_inventory": {},
+  "rf_characteristics": {},
+  "usage_patterns": {},
+  "network_info": {
+    "total_aps": 67,
+    "notes": "Data imported from Ekahau unknown"
+  },
+  "contacts": {
+    "data_collected_by": "Ekahau Parser",
+    "source_file": "TAMU-0440-The Commons .esx"
+  }
+}

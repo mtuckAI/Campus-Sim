@@ -243,7 +243,7 @@ body {
 /* Stat Cards */
 .stat-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -251,14 +251,10 @@ body {
 .stat-card {
   background: var(--card-bg);
   border-radius: 12px;
-  padding: 1rem 1.25rem;
+  padding: 1.25rem 1.5rem;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
   border: 1px solid var(--border);
   border-top: 4px solid var(--maroon);
-  min-height: 110px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .stat-card.gold-accent {
@@ -266,21 +262,19 @@ body {
 }
 
 .stat-label {
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 500;
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  margin-bottom: 0.4rem;
-  line-height: 1.2;
 }
 
 .stat-value {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 800;
   color: var(--maroon);
-  line-height: 1.1;
-  margin: 0.3rem 0;
+  line-height: 1.2;
+  margin: 0.25rem 0;
 }
 
 .stat-card.gold-accent .stat-value {
@@ -288,10 +282,8 @@ body {
 }
 
 .stat-detail {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
-  line-height: 1.3;
-  margin-top: 0.3rem;
 }
 
 /* Chart Grid */
@@ -1279,124 +1271,5 @@ body {
   .ap-table td {
     padding: 0.75rem 0.5rem;
   }
-}
-/* Fix font contrast issues in micro-analysis */
-
-/* Make stat card values more readable */
-.stat-card .stat-value {
-  font-size: 2rem;
-  font-weight: 800;
-  color: var(--maroon);  /* Dark maroon instead of gold */
-  line-height: 1.1;
-  margin: 0.3rem 0;
-}
-
-/* Keep gold only for labels */
-.stat-card .stat-label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--text-secondary);  /* Gray instead of gold */
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 0.4rem;
-  line-height: 1.2;
-}
-
-/* Make floor button text more readable */
-.floor-name {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--maroon);  /* Dark maroon instead of gold */
-}
-
-.floor-stat-value {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--maroon);  /* Dark maroon instead of light gray */
-}
-
-/* Fix building header */
-.building-title h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin: 0 0 0.5rem 0;
-  color: var(--maroon);  /* Dark color for readability */
-}
-
-/* Overview stat cards - better contrast */
-.overview-grid .stat-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-top: 4px solid var(--maroon);
-}
-
-.overview-grid .stat-value {
-  color: var(--maroon);  /* Dark maroon */
-  font-size: 1.75rem;
-}
-
-.overview-grid .stat-label {
-  color: var(--text-secondary);
-  font-size: 0.75rem;
-}
-
-/* Floor plan stats header */
-.floor-plan-stats {
-  display: flex;
-  gap: 1rem;
-  font-size: 0.9rem;
-  color: var(--text);  /* Dark text instead of light/gold */
-  opacity: 0.9;
-}
-
-/* Floor selector buttons - better contrast */
-.floor-button {
-  background: var(--card-bg);
-  border: 2px solid var(--border);
-  border-radius: 10px;
-  padding: 1.25rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.floor-button:hover {
-  border-color: var(--maroon);
-  background: rgba(80, 0, 0, 0.05);
-  transform: translateY(-2px);
-}
-
-.floor-button.selected {
-  border-color: var(--maroon);
-  background: rgba(80, 0, 0, 0.1);
-  box-shadow: 0 0 20px rgba(80, 0, 0, 0.2);
-}
-
-/* Section headers */
-.floor-selector-section h2,
-.floor-plan-section h2,
-.ap-inventory-section h2,
-.channel-distribution-section h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--maroon);  /* Dark maroon */
-  margin-bottom: 1.5rem;
-}
-
-/* Fix AP table column contrast */
-.ap-id {
-  color: var(--maroon);
-  font-family: 'Courier New', monospace;
-  font-size: 0.85rem;
-}
-
-.ap-location {
-  font-family: 'Courier New', monospace;
-  font-size: 0.85rem;
-  color: var(--text);
-}
-
-.radio-enabled {
-  color: #1a7a1a;  /* Dark green instead of bright #00FF00 */
-  font-family: 'Courier New', monospace;
 }
 

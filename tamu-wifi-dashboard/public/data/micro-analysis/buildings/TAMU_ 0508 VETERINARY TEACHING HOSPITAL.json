@@ -1,0 +1,40 @@
+{
+  "building_info": {
+    "id": "TAMU_ 0508 VETERINARY TEACHING HOSPITAL",
+    "name": "TAMU_ 0508 VETERINARY TEACHING HOSPITAL",
+    "zone_id": 1,
+    "zone_name": "West Campus",
+    "coordinates": {
+      "lat": 30.612272,
+      "lng": -96.35269
+    },
+    "building_type": "academic",
+    "floors": 1,
+    "square_feet": 397781
+  },
+  "floor_info": [
+    {
+      "floor_number": 1,
+      "floor_label": "0508-01 (Post)",
+      "dimensions": {
+        "width_ft": 728.27,
+        "height_ft": 546.2,
+        "scale": 1.0
+      },
+      "ap_count": 97,
+      "floor_plan_file": "ed2f965c-2250-4234-8dc2-0b0e5389c88c.svg",
+      "notes": ""
+    }
+  ],
+  "room_inventory": {},
+  "rf_characteristics": {},
+  "usage_patterns": {},
+  "network_info": {
+    "total_aps": 97,
+    "notes": "Data imported from Ekahau unknown"
+  },
+  "contacts": {
+    "data_collected_by": "Ekahau Parser",
+    "source_file": "TAMU- 0508 Veterinary Teaching Hospital.esx"
+  }
+}

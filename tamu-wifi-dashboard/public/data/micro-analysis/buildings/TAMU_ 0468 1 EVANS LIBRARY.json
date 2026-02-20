@@ -1,0 +1,100 @@
+{
+  "building_info": {
+    "id": "TAMU_ 0468 1 EVANS LIBRARY",
+    "name": "TAMU_ 0468 1 EVANS LIBRARY",
+    "zone_id": 2,
+    "zone_name": "Central Campus",
+    "coordinates": {
+      "lat": 30.61663,
+      "lng": -96.33909
+    },
+    "building_type": "academic",
+    "floors": 6,
+    "square_feet": 132402
+  },
+  "floor_info": [
+    {
+      "floor_number": 1,
+      "floor_label": "0468.1-01 (Post)",
+      "dimensions": {
+        "width_ft": 97.8,
+        "height_ft": 187.0,
+        "scale": 1.0
+      },
+      "ap_count": 41,
+      "floor_plan_file": "d7ae8ed7-1d1a-4009-89a8-1a7ab0fe9c61.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 2,
+      "floor_label": "0468.1-02 (Post)",
+      "dimensions": {
+        "width_ft": 109.2,
+        "height_ft": 209.0,
+        "scale": 1.0
+      },
+      "ap_count": 64,
+      "floor_plan_file": "265c5025-689e-4978-8c19-fe07703b37d7.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 3,
+      "floor_label": "0468.1-03 (Post)",
+      "dimensions": {
+        "width_ft": 109.2,
+        "height_ft": 209.0,
+        "scale": 1.0
+      },
+      "ap_count": 41,
+      "floor_plan_file": "bef2930a-77dc-44cd-ae66-dd6aab97482e.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 4,
+      "floor_label": "0468.1-04 (Post)",
+      "dimensions": {
+        "width_ft": 109.2,
+        "height_ft": 209.0,
+        "scale": 1.0
+      },
+      "ap_count": 63,
+      "floor_plan_file": "3d6c315c-80e9-4068-8f7b-a4ef913833c8.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 5,
+      "floor_label": "0468.1-05 (Post)",
+      "dimensions": {
+        "width_ft": 109.2,
+        "height_ft": 209.0,
+        "scale": 1.0
+      },
+      "ap_count": 32,
+      "floor_plan_file": "c18dcbfa-7aaf-4e5c-9598-5e55a5477c13.svg",
+      "notes": ""
+    },
+    {
+      "floor_number": 6,
+      "floor_label": "0468.1-06 (Post)",
+      "dimensions": {
+        "width_ft": 109.2,
+        "height_ft": 209.0,
+        "scale": 1.0
+      },
+      "ap_count": 24,
+      "floor_plan_file": "70ce7dfd-9d9e-4f46-9a58-3fe37c7ed471.svg",
+      "notes": ""
+    }
+  ],
+  "room_inventory": {},
+  "rf_characteristics": {},
+  "usage_patterns": {},
+  "network_info": {
+    "total_aps": 265,
+    "notes": "Data imported from Ekahau unknown"
+  },
+  "contacts": {
+    "data_collected_by": "Ekahau Parser",
+    "source_file": "TAMU- 0468 1 Evans Library.esx"
+  }
+}
