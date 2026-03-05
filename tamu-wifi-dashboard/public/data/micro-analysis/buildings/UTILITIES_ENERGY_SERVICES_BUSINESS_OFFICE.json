@@ -1,0 +1,57 @@
+{
+  "schema_version": "2.0",
+  "data_source": {
+    "tier": 1,
+    "label": "XLSX estimate",
+    "confidence": "Low",
+    "last_updated": "2026-03-05",
+    "ekahau_file": null,
+    "ekahau_survey_date": null
+  },
+  "building_info": {
+    "id": "UTILITIES_ENERGY_SERVICES_BUSINESS_OFFICE",
+    "name": "Utilities & Energy Services Business Office",
+    "zone_id": 8,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "building_type": "academic",
+    "construction_year": null,
+    "total_ap_count": 6,
+    "floor_count_estimate": {
+      "conservative": 1,
+      "tiered": 1,
+      "recommended": 1
+    }
+  },
+  "floors": [
+    {
+      "floor_number": 1,
+      "label": "Floor 1",
+      "dimensions": {
+        "width_m": null,
+        "height_m": null,
+        "width_ft": null,
+        "height_ft": null
+      },
+      "ap_count_estimated": 6,
+      "placed_aps": [],
+      "walls": [],
+      "floor_plan_image": null
+    }
+  ],
+  "room_inventory": null,
+  "analysis_config": {
+    "wifi_gen_mix": {
+      "wifi7_pct": 10,
+      "wifi6_pct": 25,
+      "wifi5_pct": 40,
+      "wifi4_pct": 25,
+      "legacy_factor": 50
+    },
+    "mlo_enabled": false,
+    "channel_width_5ghz": 80,
+    "channel_width_6ghz": 160
+  }
+}
